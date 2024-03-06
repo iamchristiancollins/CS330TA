@@ -1,11 +1,14 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int firstNum, secondNum;
     firstNum = secondNum = 10;
-    secondNum /= 2;
-    int answer = ++firstNum + secondNum--;
+    secondNum /= 2;                        
+    int answer = ++firstNum + secondNum--; 
     printf("%d\n", answer);
+
+
     return 0;
 }
 
