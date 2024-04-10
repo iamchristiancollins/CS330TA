@@ -23,7 +23,7 @@ printArray:
 # void printArray(int * myArr, int size)
 # array pointer in %rdi, size in %rsi [see note at bottom about array size]
     # save any callee-saved registers
-        # a. savea ll callee saved registers
+        # a. save all callee saved registers
         # b. just save the registers we use
         # c. not use any callee saved registers
         # d. ignore the rules
